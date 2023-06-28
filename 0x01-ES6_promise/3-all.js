@@ -5,7 +5,7 @@ export default function handleProfileSignup() {
   const user = createUser();
 
   return Promise.all([photo, user])
-     .then((values) => {
+    .then((values) => {
       const profile = values[0].body;
       const first = values[1].firstName;
       const last = values[1].lastName;
