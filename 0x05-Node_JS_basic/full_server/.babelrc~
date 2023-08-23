@@ -1,0 +1,3 @@
+!x{
+    "presets": [["env", {"exclude": ["transform-regenerator"]}]]
+}
